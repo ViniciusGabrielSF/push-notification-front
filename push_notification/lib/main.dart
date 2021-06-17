@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.grey[850],
           title: Text("Push Notification"),
         ),
         body: MessageHandler(),
